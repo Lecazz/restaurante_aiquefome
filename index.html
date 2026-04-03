@@ -1,81 +1,131 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head>
-    <title>Ai Que Fome Bar e Restaurante</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/style.css" rel="stylesheet">
-</head>
+    <head>
+        <title>Ai Que Fome Bar e Restaurante</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="estilo.css">
+    </head>
 
-<body>
+    <body>
 
-    <header>
-        <p><img src="imagens/logo.jpg" alt="Imagem do logo do Ai Que Fome Bar e Restaurante"></p>
-        <h1>Ai Que Fome Bar e Restaurante</h1>
-        <h2>Menu Maravilhoso</h2>
+        <header>
+            <p><img id="topo" src="imagens/logo.jpg"
+                    alt="Imagem do logo do Ai Que Fome Bar e Restaurante"></p>
+            <h1>Ai Que Fome Bar e Restaurante</h1>
+            <nav>
 
-    </header>
+                <ol>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#nossa_historia">Nossa História</a></li>
+                    <li><a href="#menu_maravilhoso">Menu Maravilhoso</a></li>
+                    <li><a href="#promocoes_do_dia">Promoções do Dia</a></li>
+                    <li><a href="#recados">Deixe seu recado</a></li>
+                    <li><a href="#localizacao_e_redes_sociais">Localização e
+                            Redes Sociais</a></li>
 
-    <main>
+                </ol>
 
-        <ol>
-            <li>Entradas mais que especiais
-                <ul>
-                    <li><a href="carpaccio.html">Carpaccio</a>
+            </nav>
+
+        </header>
+
+        <main>
+
+            <section id="nossa_historia">
+
+                <h2>Nossa História</h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+                    pariatur ratione cumque incidunt quam eveniet nobis quaerat
+                    dolor provident ipsum accusantium debitis, tenetur tempora
+                    est natus, minima optio. Facere, ipsum!</p>
+                <a href="#topo"><img src="imagens/seta.jpg" alt></a>
+
+            </section>
+
+            <section id="menu_maravilhoso">
+
+                <h2>Menu Maravilhoso</h2>
+
+                <ol>
+                    <li>Entradas mais que especiais
+                        <ul>
+                            <li><a href="carpaccio.html">Carpaccio</a>
+                            </li>
+                            <li><a href="bruschetta.html">Bruschetta</a></li>
+                        </ul>
                     </li>
-                    <li><a href="bruschetta.html">Bruschetta</a></li>
-                </ul>
-            </li>
+                </ol>
+                
+            </section>
 
-            <li>Pratos principais
-                <ul>
-                    <li><a href="lasanha.html">Lasanha à Bolonhesa</a></li>
-                    <li><a href="spaghetti.html">Spaghetti alla Carbonara</a></li>
-                </ul>
-            </li>
+            <ol>
 
-            <li>Bebidas
-                <ul>
-                    <li><a href="negroni.html">Negroni</a></li>
-                    <li><a href="refrigerante.html">Refrigerante</a></li>
-                </ul>
-            </li>
-        </ol>
+                <li>Pratos principais
+                    <ul>
+                        <li><a href="lasanha.html">Lasanha à Bolonhesa</a></li>
+                        <li><a href="spaghetti.html">Spaghetti alla
+                                Carbonara</a></li>
+                    </ul>
+                </li>
 
+                <li>Bebidas
+                    <ul>
+                        <li><a href="negroni.html">Negroni</a></li>
+                        <li><a href="refrigerante.html">Refrigerante</a></li>
+                    </ul>
+                </li>
+                <a href="#topo"><img src="imagens/seta.jpg" alt></a>
+            </ol>
 
-    </main>
+            <section id="recados">
+                <h2>Recados</h2>
+            </section>
 
-    <footer>
-        <h1>Promoções do Dia</h1>
-        <table border="2">
-            <tr>
-                <th colspan="3">Ofertas Especiais</th>
-            </tr>
-            <tr>
-                <th>Prato</th>
-                <th>Descrição</th>
-                <th>Preço</th>
-            </tr>
-            <tr>
-                <td rowspan="2">Combo Família</td>
-                <td>Lasanha à Bolonhesa + Bruschetta + 2 Negronis</td>
-                <td rowspan="2">R$85,00</td>
-            </tr>
-            <tr>
-                <td>(para 4 pessoas)</td>
-            </tr>
-            <tr>
-                <td>Spaghetti alla Carbonara</td>
-                <td>Spaghetti Com molho carbonara e Guanciale</td>
-                <td>R$45,00</td>
-            </tr>
-        </table>
+        </main>
 
-        <h4>Localização: Rua das Flores, 123, São Paulo, SP</h4>
-        <h4>Telefone: (18) 9999-9999</h4>
+        <footer>
 
-        <img src="imagens/insta.jpg" alt="Nosso Instagram">
-        <img src="imagens/face.jpg" alt="Nosso Facebook">
+            <section id="promocoes_do_dia">
 
-    </footer>
+                <h1>Promoções do Dia</h1>
+                <table border="2">
+                    <tr>
+                        <th colspan="3">Ofertas Especiais</th>
+                    </tr>
+                    <tr>
+                        <th>Prato</th>
+                        <th>Descrição</th>
+                        <th>Preço</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Combo Família</td>
+                        <td>Lasanha à Bolonhesa + Bruschetta + 2 Negronis</td>
+                        <td rowspan="2">R$85,00</td>
+                    </tr>
+                    <tr>
+                        <td>(para 4 pessoas)</td>
+                    </tr>
+                    <tr>
+                        <td>Spaghetti alla Carbonara</td>
+                        <td>Spaghetti Com molho carbonara e Guanciale</td>
+                        <td>R$45,00</td>
+                    </tr>
+                </table>
+
+            </section>
+
+            <section id="localizacao_e_redes_sociais">
+
+                <h4>Localização: Rua das Flores, 123, São Paulo, SP</h4>
+                <h4>Telefone: (18) 9999-9999</h4>
+
+                <img src="imagens/insta.jpg" alt="Nosso Instagram">
+                <img src="imagens/face.jpg" alt="Nosso Facebook">
+                <a href="#topo"><img src="imagens/seta.jpg" alt></a>
+
+            </section>
+
+        </footer>
